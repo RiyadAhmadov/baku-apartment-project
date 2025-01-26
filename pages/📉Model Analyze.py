@@ -194,8 +194,6 @@ if submit_button:
                         msg['To'] = email_to
                         msg['From'] = 'riyadehmedov03@gmail.com'
                         msg['Subject'] = subject
-                        msg.attach(MIMEText(body, 'plain'))  # Attach the body as plain text
-
                         # Attach the HTML body
                         msg.attach(MIMEText(body, 'html'))  # Set content type to HTML
 
